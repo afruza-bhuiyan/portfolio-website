@@ -29,4 +29,4 @@ Additional projects will be added as they are developed and uploaded to GitHub.
 
 ## Live Website
 
-The portfolio is also available through GitHub Pages.
+[View my portfolio website.](https://afruza-bhuiyan.github.io/portfolio-website/)
