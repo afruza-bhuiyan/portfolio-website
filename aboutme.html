@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Browser tab icon -->
+    <link rel="icon" type="image/png" href="images/logo.jpg">
+
+    <!-- JavaScript -->
+    <script src="jqm.js"></script>
+
+    <!-- Page title -->
+    <title>Afruza's Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="topnav" id="myTopnav">
+
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                <img src="images/logo.jpg" alt="Afruza logo">
+            </a>
+
+            <!-- Navigation links -->
+            <div class="nav-links">
+
+                <a href="index.html">
+                    <i class="fa fa-home"></i>
+                    Home
+                </a>
+
+                <a href="aboutme.html" class="active">
+                    <i class="fa fa-user"></i>
+                    About Me
+                </a>
+
+                <a href="projects.html">
+                    <i class="fa fa-suitcase"></i>
+                    Projects
+                </a>
+
+                <a href="contactme.html">
+                    <i class="fa fa-envelope"></i>
+                    Contact
+                </a>
+
+            </div>
+
+            <!-- Mobile hamburger menu -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- About Me -->
+        <section class="about-section">
+
+            <div class="about-content">
+
+                <p class="about-intro">
+                    I am an aspiring <b>computer scientist</b> with experience
+                    working on projects in <b>web development</b>,
+                    <b>game development</b> and other areas of computing.
+                </p>
+
+                <p>
+                    I am well organised, independent and a good problem solver
+                    with strong attention to detail.
+                </p>
+
+                <p>
+                    I also create artwork as a hobby in my free time.
+                </p>
+
+                <p>
+                    If you have any questions, please
+                    <a href="contactme.html">get in touch</a>.
+                </p>
+
+            </div>
+
+
+            <div class="about-image">
+                <img src="images/artificial%20intelligence.jpg"
+                     alt="Artificial intelligence themed image">
+            </div>
+
+        </section>
+
+
+        <!-- Education and Interests -->
+        <section class="about-section reverse">
+
+            <div class="about-image">
+                <img src="images/computer.jpg"
+                     alt="Computer themed image">
+            </div>
+
+            <div class="about-content">
+
+                <h2>Education & Interests</h2>
+
+                <p>
+                    I studied computer science throughout GCSE and A-Level
+                    before obtaining my <b>Computer Science BSc degree</b>
+                    from Goldsmiths, University of London.
+                </p>
+
+                <p>
+                    I have also developed additional computing skills through
+                    independent learning and personal projects.
+                </p>
+
+                <p>
+                    My main areas of interest are
+                    <b>artificial intelligence</b> and
+                    <b>programming</b>.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Key Skills -->
+        <section class="skills-section">
+
+            <div class="skills-content">
+
+                <h2>Key Skills</h2>
+
+                <div class="skills-grid">
+
+                    <div class="skill">
+                        <i class="fa fa-comments"></i>
+                        <span>Communication</span>
+                    </div>
+
+                    <div class="skill">
+                        <i class="fa fa-desktop"></i>
+                        <span>IT & Computer Skills</span>
+                    </div>
+
+                    <div class="skill">
+                        <i class="fa fa-clock-o"></i>
+                        <span>Organisation & Time Management</span>
+                    </div>
+
+                    <div class="skill">
+                        <i class="fa fa-lightbulb-o"></i>
+                        <span>Problem Solving</span>
+                    </div>
+
+                    <div class="skill">
+                        <i class="fa fa-users"></i>
+                        <span>Teamwork & Independent Working</span>
+                    </div>
+
+                    <div class="skill">
+                        <i class="fa fa-handshake-o"></i>
+                        <span>Customer & Public Communication</span>
+                    </div>
+
+                    <div class="skill">
+                        <i class="fa fa-book"></i>
+                        <span>Fast Learner & Adaptable</span>
+                    </div>
+
+                    <div class="skill">
+                        <i class="fa fa-check-circle"></i>
+                        <span>Reliable & Responsible</span>
+                    </div>
+
+                    <div class="skill">
+                        <i class="fa fa-info-circle"></i>
+                        <span>Explaining Information Clearly</span>
+                    </div>
+
+                    <div class="skill">
+                        <i class="fa fa-rocket"></i>
+                        <span>Self-Motivated & Willing to Learn</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="skills-image">
+                <img src="images/game.jpg"
+                     alt="Game development project">
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            Social media:
+            <a href="https://github.com/afruza-bhuiyan"
+               target="_blank"
+               rel="noopener noreferrer">
+                <i class="fa fa-github"></i>
+            </a>
+            <br>
+            Page designed and created by Afruza.
+            <br>
+            All rights are reserved.
+        </p>
+    </footer>
+
+
+    <!-- Mobile navigation JavaScript -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Browser tab icon -->
+    <link rel="icon" type="image/png" href="images/logo.jpg">
+
+    <!-- JavaScript -->
+    <script src="jqm.js"></script>
+
+    <!-- Page title -->
+    <title>Afruza's Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="topnav" id="myTopnav">
+
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                <img src="images/logo.jpg" alt="Afruza logo">
+            </a>
+
+            <!-- Navigation links -->
+            <div class="nav-links">
+
+                <a href="index.html" class="active">
+                    <i class="fa fa-home"></i>
+                    Home
+                </a>
+
+                <a href="aboutme.html">
+                    <i class="fa fa-user"></i>
+                    About Me
+                </a>
+
+                <a href="projects.html">
+                    <i class="fa fa-suitcase"></i>
+                    Projects
+                </a>
+
+                <a href="contactme.html">
+                    <i class="fa fa-envelope"></i>
+                    Contact
+                </a>
+
+            </div>
+
+            <!-- Mobile hamburger menu -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Hero section -->
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="intro">
+                    Hi, I'm <span>Afruza</span>.
+                </p>
+
+                <h1>
+                    Computer Science Graduate<br>
+                    <span>Aspiring Software Developer</span>
+                </h1>
+
+                <p class="hero-text">
+                    I have a passion for software development and enjoy
+                    building projects using Python, JavaScript, SQL and
+                    web technologies.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="projects.html" class="hero-button primary">
+                        View My Projects
+                    </a>
+
+                    <a href="https://github.com/afruza-bhuiyan"
+                       class="hero-button secondary"
+                       target="_blank">
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image">
+                <img src="images/computer%20science.jpg"
+                     alt="Computer science and programming">
+            </div>
+
+        </section>
+
+
+        <!-- Quick navigation -->
+        <section class="quick-links">
+
+            <a href="aboutme.html" class="quick-card">
+
+                <i class="fa fa-user"></i>
+
+                <h2>About Me</h2>
+
+                <p>
+                    Learn more about my background, skills and interests.
+                </p>
+
+            </a>
+
+
+            <a href="projects.html" class="quick-card">
+
+                <i class="fa fa-suitcase"></i>
+
+                <h2>Projects</h2>
+
+                <p>
+                    Explore some of the software and web projects I have built.
+                </p>
+
+            </a>
+
+
+            <a href="contactme.html" class="quick-card">
+
+                <i class="fa fa-envelope"></i>
+
+                <h2>Contact</h2>
+
+                <p>
+                    Get in touch with me about opportunities or projects.
+                </p>
+
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            Social media:
+            <a href="https://github.com/afruza-bhuiyan"
+               target="_blank"
+               rel="noopener noreferrer">
+                <i class="fa fa-github"></i>
+            </a>
+            <br>
+            Page designed and created by Afruza.
+            <br>
+            All rights are reserved.
+        </p>
+    </footer>
+
+
+    <!-- Mobile navigation JavaScript -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

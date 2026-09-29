@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Browser tab icon -->
+    <link rel="icon" type="image/png" href="images/logo.jpg">
+
+    <!-- JavaScript -->
+    <script src="jqm.js"></script>
+
+    <!-- Page title -->
+    <title>Afruza's Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="topnav" id="myTopnav">
+
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                <img src="images/logo.jpg" alt="Afruza logo">
+            </a>
+
+            <!-- Navigation links -->
+            <div class="nav-links">
+
+                <a href="index.html">
+                    <i class="fa fa-home"></i>
+                    Home
+                </a>
+
+                <a href="aboutme.html">
+                    <i class="fa fa-user"></i>
+                    About Me
+                </a>
+
+                <a href="projects.html">
+                    <i class="fa fa-suitcase"></i>
+                    Projects
+                </a>
+
+                <a href="contactme.html" class="active">
+                    <i class="fa fa-envelope"></i>
+                    Contact
+                </a>
+
+            </div>
+
+            <!-- Mobile hamburger menu -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Contact -->
+        <section class="contact-section">
+
+            <div class="contact-content">
+
+                <h1>Contact Me</h1>
+
+                <p>
+                    If you have any questions or would like to get in touch,
+                    feel free to send me a message using the form below.
+                </p>
+
+
+                <!-- Contact form -->
+                <form class="contact-form" action="contactme.html">
+
+                    <label for="name">Name</label>
+
+                    <input type="text"
+                           id="name"
+                           name="name"
+                           placeholder="Your name..">
+
+
+                    <label for="email">Email</label>
+
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           placeholder="Your email...">
+
+
+                    <label for="subject">Message</label>
+
+                    <textarea id="subject"
+                              name="subject"
+                              placeholder="Write something.."></textarea>
+
+
+                    <input type="submit" value="Submit">
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            Social media:
+            <a href="https://github.com/afruza-bhuiyan"
+               target="_blank"
+               rel="noopener noreferrer">
+                <i class="fa fa-github"></i>
+            </a>
+            <br>
+            Page designed and created by Afruza.
+            <br>
+            All rights are reserved.
+        </p>
+    </footer>
+
+
+    <!-- Mobile navigation JavaScript -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

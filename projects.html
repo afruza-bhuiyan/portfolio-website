@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Browser tab icon -->
+    <link rel="icon" type="image/png" href="images/logo.jpg">
+
+    <!-- JavaScript -->
+    <script src="jqm.js"></script>
+
+    <!-- Page title -->
+    <title>Afruza's Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="topnav" id="myTopnav">
+
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                <img src="images/logo.jpg" alt="Afruza logo">
+            </a>
+
+            <!-- Navigation links -->
+            <div class="nav-links">
+
+                <a href="index.html">
+                    <i class="fa fa-home"></i>
+                    Home
+                </a>
+
+                <a href="aboutme.html">
+                    <i class="fa fa-user"></i>
+                    About Me
+                </a>
+
+                <a href="projects.html" class="active">
+                    <i class="fa fa-suitcase"></i>
+                    Projects
+                </a>
+
+                <a href="contactme.html">
+                    <i class="fa fa-envelope"></i>
+                    Contact
+                </a>
+
+            </div>
+
+            <!-- Mobile hamburger menu -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Projects -->
+        <section class="projects-section">
+
+            <!-- Side Scroller Game -->
+            <article class="project-card">
+
+                <div class="project-content">
+
+                    <h2>Side Scroller Game</h2>
+
+                    <p class="project-tech">
+                        <strong>Technologies:</strong> JavaScript · p5.js
+                    </p>
+
+                    <div class="project-image">
+                        <img src="images/gameprj.jpg"
+                             alt="Side scroller game">
+                    </div>
+
+                    <p>
+                        This is a side scroller game that I created from scratch. From
+                        initial sketch designs to coding finalisation was all
+                        done by me.
+                    </p>
+
+                    <div class="project-image">
+                        <img src="images/gameprj1.jpg"
+                             alt="Side scroller game">
+                    </div>
+
+                    <p>
+                        First, I created the background and game character
+                        based on the initial design. After that I coded the
+                        movement for the main character and the places for
+                        the platforms.
+                    </p>
+
+                    <p>
+                        When this was done, I focused on creating the enemy,
+                        end point and tokens. The top left corner on the
+                        screen contains the amount of lives left and the
+                        amount of tokens collected.
+                    </p>
+
+                    <a href="https://github.com/afruza-bhuiyan/p5js-side-scroller" class="project-button" target="_blank" rel="noopener noreferrer">
+                    View Project on GitHub
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- Maze Quiz -->
+            <article class="project-card">
+
+                <div class="project-content">
+
+                    <h2>Maze Quiz</h2>
+
+                    <p class="project-tech">
+                        <strong>Technologies:</strong> Python · Turtle
+                    </p>
+
+                    <div class="project-image">
+                        <img src="images/maze_quiz_main.png"
+                            alt="Maze Quiz main game screen">
+                    </div>
+
+                    <p>
+                        <br>This is a maze-based quiz game that I created using Python and
+                        the Turtle graphics library. The player navigates through a maze
+                        while answering quiz questions and collecting coins.
+                    </p>
+
+                    <div class="project-gallery">
+
+                        <img src="images/question.png"
+                            alt="Maze Quiz question screen">
+
+                        <img src="images/answer_coins.png"
+                            alt="Maze Quiz answer and coins screen">
+
+                    </div>
+
+                    <p>
+                        I implemented the player's movement, collision detection,
+                        quiz questions, collectables, lives and different game states
+                        including the start screen, gameplay, game over and completion
+                        states.
+                    </p>
+
+                    <p>
+                        The project helped me develop my understanding of Python
+                        programming, game logic and managing different states within
+                        an interactive application.
+                    </p>
+
+                    <a href="https://github.com/afruza-bhuiyan/maze-quiz" class="project-button" target="_blank" rel="noopener noreferrer">
+                        View Project on GitHub
+                    </a>
+
+                </div>
+            </article>
+        </section>
+
+
+        <!-- GitHub -->
+        <section class="projects-github">
+
+            <p>
+                Visit my
+                <a href="https://github.com/afruza-bhuiyan"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    GitHub 
+                </a>
+                account for a detailed look into my projects.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            Social media:
+            <a href="https://github.com/afruza-bhuiyan"
+               target="_blank"
+               rel="noopener noreferrer">
+                <i class="fa fa-github"></i>
+            </a>
+            <br>
+            Page designed and created by Afruza.
+            <br>
+            All rights are reserved.
+        </p>
+    </footer>
+
+
+    <!-- Mobile navigation JavaScript -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
