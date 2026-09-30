@@ -36,7 +36,7 @@ footer a:hover {
 
 
 /* =========================================
-   MODERN NAVIGATION
+   NAVIGATION
    ========================================= */
 
 header {
@@ -166,7 +166,7 @@ header {
 
 
 /* =========================================
-   MODERN HOMEPAGE
+   HOMEPAGE
    ========================================= */
 
 .hero {
@@ -352,7 +352,7 @@ header {
 
 
 /* =========================================
-   MODERN ABOUT ME PAGE
+   ABOUT ME PAGE
    ========================================= */
 
 .about-section {
@@ -542,7 +542,7 @@ header {
 
 
 /* =========================================
-   MODERN PROJECTS PAGE
+   PROJECTS PAGE
    ========================================= */
 
 .projects-section {
@@ -711,7 +711,7 @@ text-decoration: none;
 
 
 /* =========================================
-   MODERN CONTACT PAGE
+   CONTACT PAGE
    ========================================= */
 
 .contact-section {
@@ -744,68 +744,53 @@ text-decoration: none;
     text-align: center;
 }
 
+/* Contact*/
 
-/* Contact form */
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.contact-method {
+    text-align: center;
     padding: 40px;
     background: #111111;
     border: 1px solid #2d2d2d;
     border-radius: 10px;
+    max-width: 700px;
+    margin: 40px auto;
     box-sizing: border-box;
 }
 
-.contact-form label {
-    margin-top: 10px;
-    color: #ffffff;
-    font-size: 16px;
+.contact-method i {
+    font-size: 45px;
+    color: #d62828;
+    margin-bottom: 20px;
 }
 
-.contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form textarea {
-    width: 100%;
-    padding: 14px;
-    background: #1c1c1c;
-    color: #ffffff;
-    border: 1px solid #333333;
-    border-radius: 6px;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    box-sizing: border-box;
+.contact-method h2 {
+    margin: 0 0 15px;
+    color: white;
+    font-size: 28px;
 }
 
-.contact-form textarea {
-    min-height: 200px;
-    resize: vertical;
+.contact-method p {
+    color: #bdbdbd;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 25px;
 }
 
-.contact-form input::placeholder,
-.contact-form textarea::placeholder {
-    color: #888888;
-}
-
-
-/* Submit button */
-
-.contact-form input[type="submit"] {
-    margin-top: 15px;
-    padding: 14px 25px;
+.contact-button {
+    display: inline-block;
+    padding: 12px 24px;
     background: #d62828;
-    color: #ffffff;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
     transition: 0.3s ease;
 }
 
-.contact-form input[type="submit"]:hover {
+.contact-button:hover {
     background: #ef3b3b;
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -824,9 +809,4 @@ text-decoration: none;
     .contact-content > p {
         font-size: 16px;
     }
-
-    .contact-form {
-        padding: 25px;
-    }
-
 }
