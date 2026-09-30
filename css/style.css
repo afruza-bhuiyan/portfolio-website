@@ -776,7 +776,7 @@ text-decoration: none;
     margin-bottom: 25px;
 }
 
-.contact-button {
+.contact-method .contact-button {
     display: inline-block;
     padding: 12px 24px;
     background: #d62828;
@@ -787,7 +787,7 @@ text-decoration: none;
     transition: 0.3s ease;
 }
 
-.contact-button:hover {
+.contact-method .contact-button:hover {
     background: #ef3b3b;
     color: white;
     text-decoration: none;
